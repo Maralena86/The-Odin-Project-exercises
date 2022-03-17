@@ -1,0 +1,23 @@
+body
+{
+	font-family: Verdana, sans-serif;
+}
+.red
+{
+	color: red;
+}
+
+.red.biggerP
+{
+	font-size: 20px;
+}
+.greenP
+{
+	color: green;
+	font-size: 22px;
+}
+.greenButton
+{
+	color: white;
+	background-color: green;
+}

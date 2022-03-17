@@ -1,0 +1,98 @@
+
+/*general*/
+body{
+	margin: auto;
+}
+.intro, .intro2, .randomInfo, .textQuote, .actionSign, #author {
+	
+	margin: 0px 200px;
+}
+header, footer{
+	background-color: #1F2937;
+	color: white;
+}
+button, .actionSign{
+	background-color: #3882F6;
+}
+/*header*/
+
+li{
+	list-style-type: none;
+}
+ul{
+	display: flex;
+	align-items: center;
+}
+.intro{
+	display: flex;
+}
+.intro2{
+	display: flex;
+
+
+
+}
+img{
+	width: 400px;
+	height: 300px;
+	flex: 2;
+	margin-bottom: 30px;
+}
+
+.awesomeWeb{
+	flex-direction: row;
+	flex: 1;
+
+}
+
+
+/*random information*/
+.rand{
+	text-align: center;
+}
+.elements{
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.element{
+	width: 150px;
+	margin: 20px;
+
+}
+
+.blueSquare{
+	border: 3px solid #3882F6;
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+}
+/*quote*/
+.quote{
+	background-color: #E5E7EB;
+	padding: 30px 0px;
+}
+.textQuote{
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+#author{
+	text-align: right;
+}
+.actionSign{
+	border-radius: 15px;
+	padding:10px 20px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+footer{
+	text-align: center;
+	padding: 30px 0px;
+}
